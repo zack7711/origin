@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About — Learn more about who I am and what I do." />
+  <title>About Me 👤</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient orbs -->
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo">✦ MySpace</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html" class="nav-link" id="nav-home">Home</a></li>
+      <li><a href="about.html" class="nav-link active" id="nav-about">About</a></li>
+      <li><a href="contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main class="page-content" role="main">
+
+    <!-- Hero section -->
+    <section class="about-hero animate-pop" aria-labelledby="about-heading">
+      <div class="avatar" aria-hidden="true">👤</div>
+      <h1 id="about-heading">About Me</h1>
+      <p class="subtitle">Student · Developer · Problem Solver</p>
+    </section>
+
+    <!-- Bio card -->
+    <section class="card about-card animate-pop delay-1" aria-label="Biography">
+      <h2 class="section-title">Who Am I?</h2>
+      <p class="body-text">
+        Hi there! I'm a Computer Science student at <span class="highlight">Birmingham City University</span>,
+        passionate about building things for the web. I love turning ideas into clean,
+        functional, and beautiful digital experiences.
+      </p>
+      <p class="body-text">
+        When I'm not coding, you'll find me exploring new technologies, solving puzzles,
+        or enjoying a good cup of coffee ☕.
+      </p>
+    </section>
+
+    <!-- Skills grid -->
+    <section class="card about-card animate-pop delay-2" aria-label="Skills">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid" role="list">
+        <div class="skill-chip" role="listitem">🌐 HTML</div>
+        <div class="skill-chip" role="listitem">🎨 CSS</div>
+        <div class="skill-chip" role="listitem">⚡ JavaScript</div>
+        <div class="skill-chip" role="listitem">🐍 Python</div>
+        <div class="skill-chip" role="listitem">🗄️ Databases</div>
+        <div class="skill-chip" role="listitem">🔧 Git</div>
+      </div>
+    </section>
+
+    <!-- Stats row -->
+    <section class="stats-row animate-pop delay-3" aria-label="Statistics">
+      <div class="stat-card">
+        <span class="stat-number">9</span>
+        <span class="stat-label">Weeks In</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Curiosity</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Dedication</span>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-row animate-pop delay-3">
+      <a href="contact.html" class="btn" id="about-contact-btn">Get In Touch →</a>
+    </div>
+
+  </main>
+
+</body>
+</html>
